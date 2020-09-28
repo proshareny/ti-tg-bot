@@ -1,0 +1,9 @@
+logging:
+  file:
+    name: ./logs/ti-tg-bot-log.log
+    max-size: 16MB
+  level:
+    root: info
+  pattern:
+    console: "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(%5p) [%t] %clr(%-40.40logger{39}){cyan} {%X} %clr(:){faint} %m%n%wEx"
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} %5p [%t] %-40.40logger{39} {%X} : %m%n%wEx"

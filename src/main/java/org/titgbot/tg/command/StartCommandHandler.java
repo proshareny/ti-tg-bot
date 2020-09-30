@@ -14,7 +14,7 @@ public class StartCommandHandler extends CommandHandler {
     }
 
     @Override
-    public void execute(Update update) {
-        log.info("Processing of {}", getCommand());
+    public void executeCommand(Update update) {
+
     }
 }

@@ -6,11 +6,11 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 
 @Slf4j
 @Component
-public class HelpCommandHandler extends CommandHandler {
+public class StatCommandHandler extends CommandHandler {
 
     @Override
     public String getCommand() {
-        return "/help";
+        return "/stat";
     }
 
     @Override
